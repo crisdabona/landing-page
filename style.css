@@ -1,9 +1,10 @@
 body{
-    margin: 0;
+    margin: 0 45px;
+    background-color: #0e0e0e;
 }
 
 header{
-    padding: 0 240px ;
+    padding: 0 220px ;
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
@@ -15,7 +16,7 @@ header{
 }
 
 .header-ul{
-    width: 550px;
+    width: 520px;
     margin: auto 0;
     padding: 0;
     display: flex;
@@ -25,6 +26,48 @@ header{
 .header-ul li{
     list-style: none;
     color: #e5e7eb;
-    margin: 0 25px;
+    margin: 0 20px;
     font-size: 18px;
+}
+
+
+.hero{
+    background-color: #1f2937;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 380px;
+    padding-top: 80px;
+}
+
+.hero-article{
+    width: 400px;
+    margin-right: 100px;
+}
+
+.hero-article h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero-article p{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero-article button{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+}
+
+.hero img{
+    width: 500px;
+    height: 250px;
+    margin: auto 0;
 }
