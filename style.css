@@ -135,3 +135,59 @@ header{
     font-size: 26px;
     color: #1f2937;
 }
+
+.call-sec{
+    background-color: white;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-sec-container{
+    width: 1020px;
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-sec h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.call-sec p{
+    margin: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.call-sec button{
+    width: 130px;
+    height: 40px;
+    border: 3px solid #f9faf8;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer{
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    text-align: center;
+    color: #e5e7eb;
+    margin: 0;
+    font-size: 18px;
+}
